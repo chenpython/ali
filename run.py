@@ -38,9 +38,9 @@ sign = search('"value":"{sign}"}', str(response))["sign"]
 sessionId = search('csessionid":"{sessionId}",', str(response))["sessionId"]
 url = "http://gateway.jiangongdata.com/jian-butler-member-biz/login/loginByUsername"
 data = {
-    "mobile": "18580848116",
-    "password": "11092844136cp",
-    "loginName": "18580848116",
+    "mobile": "18580848142",
+    "password": "18580848142",
+    "loginName": "18580848142",
     "params": {
         "sig": sign,
         "sessionId": sessionId,
